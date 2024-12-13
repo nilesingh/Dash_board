@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive Admin Dashboard | Korsat X Parmaga</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <!-- ======= Styles ====== -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <!-- =============== Navigation ================ -->
+    <div class="container">
+      <div class="navigation">
+        <ul>
+          <li>
+            <a href="#">
+              <span class="icon">
+                <i class="ri-money-rupee-circle-line"></i>
+              </span>
+              <span class="title">Account Book</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="#">
+              <span class="icon">
+                <ion-icon name="home-outline"></ion-icon>
+              </span>
+              <span class="title">Dashboard</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="#">
+              <span class="icon">
+                <ion-icon name="people-outline"></ion-icon>
+              </span>
+              <span class="title">Customers</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="#">
+              <span class="icon">
+                <ion-icon name="chatbubble-outline"></ion-icon>
+              </span>
+              <span class="title">Messages</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="#">
+              <span class="icon">
+                <ion-icon name="help-outline"></ion-icon>
+              </span>
+              <span class="title">Help</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="#">
+              <span class="icon">
+                <ion-icon name="settings-outline"></ion-icon>
+              </span>
+              <span class="title">Settings</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="#">
+              <span class="icon">
+                <ion-icon name="lock-closed-outline"></ion-icon>
+              </span>
+              <span class="title">Password</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="#">
+              <span class="icon">
+                <ion-icon name="log-out-outline"></ion-icon>
+              </span>
+              <span class="title">Sign Out</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <!-- ========================= Main ==================== -->
+      <div class="main">
+        <div class="topbar">
+          <div class="toggle">
+            <ion-icon name="menu-outline"></ion-icon>
+          </div>
+
+          <div class="search">
+            <label>
+              <input type="text" placeholder="Search here" />
+              <ion-icon name="search-outline"></ion-icon>
+            </label>
+          </div>
+
+          <div class="user">
+            <img src="assets/Admin.JPG" alt="" />
+          </div>
+        </div>
+
+        <!-- ======================= Cards ================== -->
+        <div class="cardBox">
+          <div class="card">
+            <div>
+              <div class="numbers">1,504</div>
+              <div class="cardName">Daily Views</div>
+            </div>
+
+            <div class="iconBx">
+              <ion-icon name="eye-outline"></ion-icon>
+            </div>
+          </div>
+
+          <div class="card">
+            <div>
+              <div class="numbers">80</div>
+              <div class="cardName">All Member</div>
+            </div>
+
+            <div class="iconBx">
+              <i class="ri-group-line"></i>
+            </div>
+          </div>
+
+          <div class="card">
+            <div>
+              <div class="numbers">284</div>
+              <div class="cardName">Comments</div>
+            </div>
+
+            <div class="iconBx">
+              <ion-icon name="chatbubbles-outline"></ion-icon>
+            </div>
+          </div>
+
+          <div class="card">
+            <div>
+              <div class="numbers">₹7,88,756</div>
+              <div class="cardName">Collection</div>
+            </div>
+
+            <div class="iconBx">
+              <ion-icon name="cash-outline"></ion-icon>
+            </div>
+          </div>
+        </div>
+
+        <!-- ================ Order Details List ================= -->
+        <div class="details">
+          <div class="recentOrders">
+            <div class="cardHeader">
+              <h2>Recent Orders</h2>
+              <a href="#" class="btn">View All</a>
+            </div>
+
+            <table>
+              <thead>
+                <tr>
+                  <td>Name</td>
+                  <td>Price</td>
+                  <td>Payment</td>
+                  <td>Status</td>
+                </tr>
+              </thead>
+
+              <tbody>
+                <tr>
+                  <td>Elctronic</td>
+                  <td>₹85,499</td>
+                  <td>Paid</td>
+                  <td><span class="status delivered">Delivered</span></td>
+                </tr>
+
+                <tr>
+                  <td>Camera</td>
+                  <td>₹2,10,111</td>
+                  <td>Due</td>
+                  <td><span class="status pending">Pending</span></td>
+                </tr>
+
+                <tr>
+                  <td>Mobile</td>
+                  <td>₹73,250</td>
+                  <td>Paid</td>
+                  <td><span class="status return">Return</span></td>
+                </tr>
+
+                <tr>
+                  <td>Lather Jacket</td>
+                  <td>₹7,499</td>
+                  <td>Due</td>
+                  <td><span class="status inProgress">In Progress</span></td>
+                </tr>
+
+                <tr>
+                  <td>Star Refrigerator</td>
+                  <td>₹44,399</td>
+                  <td>Paid</td>
+                  <td><span class="status delivered">Delivered</span></td>
+                </tr>
+
+                <tr>
+                  <td>Lenovo Laptop</td>
+                  <td>₹1,05,500</td>
+                  <td>Due</td>
+                  <td><span class="status pending">Pending</span></td>
+                </tr>
+
+                <tr>
+                  <td>Apple Watch</td>
+                  <td>₹95,500</td>
+                  <td>Paid</td>
+                  <td><span class="status return">Return</span></td>
+                </tr>
+
+                <tr>
+                  <td>Addidas Shoes</td>
+                  <td>₹25,000</td>
+                  <td>Due</td>
+                  <td><span class="status inProgress">In Progress</span></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <!-- ================= New Customers ================ -->
+          <div class="recentCustomers">
+            <div class="cardHeader">
+              <h2>Recent Customers</h2>
+            </div>
+
+            <table>
+              <tr>
+                <td width="60px">
+                  <div class="imgBx">
+                    <img src="assets/Capture8.JPG" alt="" />
+                  </div>
+                </td>
+                <td>
+                  <h4>
+                    Vishal <br />
+                    <span>Azamgarh</span>
+                  </h4>
+                </td>
+              </tr>
+              <tr>
+                <td width="60px">
+                  <div class="imgBx">
+                    <img src="assets/Capture.JPG" alt="" />
+                  </div>
+                </td>
+                <td>
+                  <h4>
+                    Nitesh <br />
+                    <span>Deoria</span>
+                  </h4>
+                </td>
+              </tr>
+
+              <tr>
+                <td width="60px">
+                  <div class="imgBx">
+                    <img src="assets/Capture1.JPG" alt="" />
+                  </div>
+                </td>
+                <td>
+                  <h4>
+                    Satish <br />
+                    <span>Gujrat</span>
+                  </h4>
+                </td>
+              </tr>
+              <tr>
+                <td width="60px">
+                  <div class="imgBx">
+                    <img src="assets/Capture2.JPG" alt="" />
+                  </div>
+                </td>
+                <td>
+                  <h4>
+                    Avinash <br />
+                    <span>Mainpuri</span>
+                  </h4>
+                </td>
+              </tr>
+              <tr>
+                <td width="60px">
+                  <div class="imgBx">
+                    <img src="assets/Capture3.JPG" alt="" />
+                  </div>
+                </td>
+                <td>
+                  <h4>
+                    Sonu <br />
+                    <span>Sultanpur</span>
+                  </h4>
+                </td>
+              </tr>
+              <tr>
+                <td width="60px">
+                  <div class="imgBx">
+                    <img src="assets/Capture4.JPG" alt="" />
+                  </div>
+                </td>
+                <td>
+                  <h4>
+                    Akash <br />
+                    <span>Mumbai</span>
+                  </h4>
+                </td>
+              </tr>
+              <tr>
+                <td width="60px">
+                  <div class="imgBx">
+                    <img src="assets/Capture5.JPG" alt="" />
+                  </div>
+                </td>
+                <td>
+                  <h4>
+                    Ankit <br />
+                    <span>Kanpur</span>
+                  </h4>
+                </td>
+              </tr>
+              <tr>
+                <td width="60px">
+                  <div class="imgBx">
+                    <img src="assets/Capture6.JPG" alt="" />
+                  </div>
+                </td>
+                <td>
+                  <h4>
+                    Shardy <br />
+                    <span>Banaras</span>
+                  </h4>
+                </td>
+              </tr>
+              <tr>
+                <td width="60px">
+                  <div class="imgBx">
+                    <img src="assets/Capture7.JPG" alt="" />
+                  </div>
+                </td>
+                <td>
+                  <h4>
+                    Vishal <br />
+                    <span>Pratap-garh</span>
+                  </h4>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- =========== Scripts =========  -->
+    <script src="./script.js"></script>
+
+    <!-- ====== ionicons ======= -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
